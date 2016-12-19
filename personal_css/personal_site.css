@@ -1,34 +1,41 @@
-#mainHeader{
-    margin-top:50px;
+body {
+    background-image: url(../img/sayagata.png);
 }
 
-
-#about p{
-    font-size:20px;
+h1, h2 {
+    text-align: center;
 }
 
-#portfolio p{
-    font-size:20px;
+#mainHeader {
+    margin-top: 50px;
 }
 
-#services p{
-    font-size:20px;
+#about p {
+    font-size: 20px;
 }
 
-#contact p{
-    font-size:20px;
+#portfolio p {
+    font-size: 20px;
 }
 
-#name{
+#services p {
+    font-size: 20px;
+}
+
+#contact p {
+    font-size: 20px;
+}
+
+#name {
     font-family: 'Pacifico', cursive;
-    font-size:20px;
+    font-size: 20px;
 }
 
 /*hr breaks*/
 hr.style-seven {
     height: 30px;
     border-style: solid;
-    border-color: #C2E4E8;
+    border-color: black;
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
@@ -39,63 +46,40 @@ hr.style-seven:before {
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: #C2E4E8;
+    border-color: black;
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
 
-#lego{
-    height:120px;
-    width:120px;
-    margin-left:13px;
-    margin-top:-20px;
+.alignright1 {
+    float: right;
 }
 
-#utsa{
-    height:120px;
-    width:120px;
-    float:right;
-    margin-right:20px;
+.alignleft1 {
+    float: left;
 }
 
-#teacher{
-    height:120px;
-    width:120px;
-    margin-left:13px;
+.aligncenter {
+    text-align: center;
 }
 
-#code{
-    height:120px;
-    width:120px;
-    float:right;
-    margin-right:20px;
-}
-
-.alignright1{
-    float:right;
-}
-
-.alignleft1{
-    float:left;
-}
-
-.aligncenter{
-    text-align:center;
-}
-
-.resumecolor{
+.resumecolor {
     background-color: #66aef2;
     border: solid black;
 }
 
-ul a{
+ul a {
     color: #cae8d6;
 }
 
-.clearl{
-    clear:left;
+.clearl {
+    clear: left;
 }
 
-.clearr{
-    clear:right;
+.clearr {
+    clear: right;
+}
+
+li{
+    font-size:20px;
 }
