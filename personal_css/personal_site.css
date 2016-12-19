@@ -1,0 +1,101 @@
+#mainHeader{
+    margin-top:50px;
+}
+
+
+#about p{
+    font-size:20px;
+}
+
+#portfolio p{
+    font-size:20px;
+}
+
+#services p{
+    font-size:20px;
+}
+
+#contact p{
+    font-size:20px;
+}
+
+#name{
+    font-family: 'Pacifico', cursive;
+    font-size:20px;
+}
+
+/*hr breaks*/
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: #C2E4E8;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.style-seven:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #C2E4E8;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+#lego{
+    height:120px;
+    width:120px;
+    margin-left:13px;
+    margin-top:-20px;
+}
+
+#utsa{
+    height:120px;
+    width:120px;
+    float:right;
+    margin-right:20px;
+}
+
+#teacher{
+    height:120px;
+    width:120px;
+    margin-left:13px;
+}
+
+#code{
+    height:120px;
+    width:120px;
+    float:right;
+    margin-right:20px;
+}
+
+.alignright1{
+    float:right;
+}
+
+.alignleft1{
+    float:left;
+}
+
+.aligncenter{
+    text-align:center;
+}
+
+.resumecolor{
+    background-color: #66aef2;
+    border: solid black;
+}
+
+ul a{
+    color: #cae8d6;
+}
+
+.clearl{
+    clear:left;
+}
+
+.clearr{
+    clear:right;
+}
